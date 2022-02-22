@@ -1,24 +1,21 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD student ∙ Algorithmic Fairness
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: corinna.jpg
+  address: she/her</br>corinna.hertweck@zhaw.ch
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi there! I'm Corinna, a PhD student in computer science at the University of Zurich and Zurich University of Applied Sciences, co-advised by <a href="http://ancsahannak.me/" target="_blank">Aniko Hannak</a> and <a href="https://www.zhaw.ch/en/about-us/person/heit/" target="_blank">Christoph Heitz</a>. At the University of Zurich, I'm part of the <a href="https://www.ifi.uzh.ch/en/scg.html" target="_blank">Social Computing Group</a>. At the Zurich University of Applied Sciences, I'm part of the SNSF-funded project <a href="https://fair-ai.ch/" target="_blank">"Socially acceptable and fair AI"</a>.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm broadly interested in AI ethics and the intersection of computer science, philosophy and sociology. My work focuses on questions such as "How can technology be used to reduce social inequalities instead of exacerbating them?" and "How can we evaluate biases in decision-making systems?"
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+On weekends, there's a good chance you'll find me in the mountains, probably taking yet another picture of cows 🐮

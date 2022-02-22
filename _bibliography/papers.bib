@@ -1,72 +1,60 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@string{ACM = {Association for Computing Machinery,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@inproceedings{hertweck2021gradual,
+  abbr={AAAI},
+  author={Corinna Hertweck and Tim Räz},
+  title={Gradual (In)Compatibility of Fairness Criteria}, 
+  year={2022},
+  publisher={Association for the Advancement of Artificial Intelligence},
+  address = {Palo Alto, California, USA},
+  abstract={Impossibility results show that important fairness measures (independence, separation, sufficiency) cannot be satisfied at the same time under reasonable assumptions. This paper explores whether we can satisfy and/or improve these fairness measures simultaneously to a certain degree. We introduce information-theoretic formulations of the fairness measures and define degrees of fairness based on these formulations. The information-theoretic formulations suggest unexplored theoretical relations between the three fairness measures. In the experimental part, we use the information-theoretic expressions as regularizers to obtain fairness-regularized predictors for three standard datasets. Our experiments show that a) fairness regularization directly increases fairness measures, in line with existing work, and b) some fairness regularizations indirectly increase other fairness measures, as suggested by our theoretical findings. This establishes that it is possible to increase the degree to which some fairness measures are satisfied at the same time -- some fairness measures are gradually compatible.},
+  booktitle = {Proceedings of the 36th AAAI Conference on Artificial Intelligence},
+  location = {Virtual Event, Canada},
+  series = {AAAI '22},
+  arxiv={2109.04399},
+  poster = {aaai_poster.pdf},
+  code={https://github.com/hcorinna/gradual-compatibility}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{hertweck2021systematic,
+  abbr={IEEE},
+  author = {Hertweck, Corinna and Heitz, Christoph},
+  title = {A Systematic Approach to Group Fairness in Automated Decision Making},
+  year = {2021},
+  publisher = {Institute of Electrical and Electronics Engineers},
+  abstract = {While the field of algorithmic fairness has brought forth many ways to measure and improve the fairness of machine learning models, these findings are still not widely used in practice. We suspect that one reason for this is that the field of algorithmic fairness came up with a lot of definitions of fairness, which are difficult to navigate. The goal of this paper is to provide data scientists with an accessible introduction to group fairness metrics and to give some insight into the philosophical reasoning for caring about these metrics. We will do this by considering in which sense socio-demographic groups are compared for making a statement on fairness.},
+  booktitle = {2021 8th Swiss Conference on Data Science (SDS)},
+  numpages = {6},
+  keywords = {algorithmic fairness, group fairness, statistical parity, independence, separation, sufficiency},
+  location = {Lucerne, Switzerland},
+  url = {https://doi.org/10.1109/SDS51136.2021.00008},
+  doi = {10.1109/SDS51136.2021.00008},
+  series = {SDS '21},
+  award = {ELSI award},
+  arxiv = {2109.04230}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{hertweck2021moral,
+abbr={ACM},
+author = {Hertweck, Corinna and Heitz, Christoph and Loi, Michele},
+title = {On the Moral Justification of Statistical Parity},
+year = {2021},
+isbn = {9781450383097},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3442188.3445936},
+doi = {10.1145/3442188.3445936},
+abstract = {A crucial but often neglected aspect of algorithmic fairness is the question of how we justify enforcing a certain fairness metric from a moral perspective. When fairness metrics are proposed, they are typically argued for by highlighting their mathematical properties. Rarely are the moral assumptions beneath the metric explained. Our aim in this paper is to consider the moral aspects associated with the statistical fairness criterion of independence (statistical parity). To this end, we consider previous work, which discusses the two worldviews "What You See Is What You Get" (WYSIWYG) and "We're All Equal" (WAE) and by doing so provides some guidance for clarifying the possible assumptions in the design of algorithms. We present an extension of this work, which centers on morality. The most natural moral extension is that independence needs to be fulfilled if and only if differences in predictive features (e.g. high school grades and standardized test scores are predictive of performance at university) between socio-demographic groups are caused by unjust social disparities or measurement errors. Through two counterexamples, we demonstrate that this extension is not universally true. This means that the question of whether independence should be used or not cannot be satisfactorily answered by only considering the justness of differences in the predictive features.},
+booktitle = {Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency},
+pages = {747–757},
+numpages = {11},
+keywords = {bias, fairness, statistical parity, distributive justice, independence},
+location = {Virtual Event, Canada},
+series = {FAccT '21},
+award = {Best Student Paper},
+arxiv = {2011.02079},
+poster = {facct_poster.pdf}
 }
