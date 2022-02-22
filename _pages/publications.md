@@ -3,7 +3,8 @@ layout: page
 permalink: /publications/
 title: Publications
 description: Publications and preprints.
-years: [2021, 2022]
+years_conferences: [2022, 2021]
+years_journals: [2022, 2021]
 nav: true
 order: 2
 ---
@@ -21,4 +22,8 @@ order: 2
   <h2 class="year">{{y}}</h2>
   {% bibliography -f journals -q @*[year={{y}}]* %}
 {% endfor %}
+
+<h1>Preprints</h1>
+{% bibliography -f preprints %}
+
 </div>
