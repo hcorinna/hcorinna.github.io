@@ -5,6 +5,7 @@ title: Publications
 description: Publications and preprints.
 years: [2021, 2022]
 nav: true
+order: 2
 ---
 <!-- _pages/publications.md -->
 <div class="publications">

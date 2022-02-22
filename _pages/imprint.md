@@ -4,7 +4,7 @@ title: Imprint
 permalink: /impressum/
 description: #
 nav: true
-order: 4
+order: 3
 ---
 <h4>Editor</h4>
 
