@@ -14,7 +14,7 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page
 ---
 
 Hi there! I'm Corinna, a PhD student in computer science at the University of Zurich and Zurich University of Applied Sciences, co-advised by <a href="http://ancsahannak.me/" target="_blank">Aniko Hannak</a> and <a href="https://www.zhaw.ch/en/about-us/person/heit/" target="_blank">Christoph Heitz</a>. At the University of Zurich, I'm part of the <a href="https://www.ifi.uzh.ch/en/scg.html" target="_blank">Social Computing Group</a>. At the Zurich University of Applied Sciences, I'm part of the SNSF-funded project <a href="https://fair-ai.ch/" target="_blank">"Socially acceptable and fair AI"</a>.
