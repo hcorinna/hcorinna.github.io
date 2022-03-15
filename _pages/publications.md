@@ -13,7 +13,7 @@ order: 2
 
 <p>
 If you're doing research in a similar area, you might find this list of relevant conferences and deadlines helpful: <a href="https://hcorinna.github.io/fair-deadlines/?sub=AIE,CSS,MD,ML,DM,CV" target="_blank">https://hcorinna.github.io/fair-deadlines/</a>
-<p>
+</p>
 
 <h1>Conferences</h1>
 {% for y in page.years_conferences %}
