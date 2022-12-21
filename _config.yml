@@ -56,8 +56,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: hcorinna # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
-linkedin_username: corinna-hertweck-60804913b # your LinkedIn user name
+twitter_username: CorinnaHertweck
+mastodon_link: https://hci.social/@CorinnaHertweck
+linkedin_username: corinna-hertweck # your LinkedIn user name
 scholar_userid: vZ-IffcAAAAJ&hl # your Google Scholar ID
 orcid_id: 0000-0002-7639-2771 # your ORCID ID
 medium_username: # your Medium username
