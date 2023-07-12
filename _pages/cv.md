@@ -4,5 +4,5 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 3
-redirect_to: /assets/pdf/CV.pdf
+redirect_to: /assets/pdf/cv.pdf
 ---
