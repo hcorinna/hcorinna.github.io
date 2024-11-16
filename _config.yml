@@ -6,7 +6,7 @@ title: Corinna Hertweck # the website title (if blank, full name will be used in
 first_name: Corinna
 # middle_name: R.
 last_name: Hertweck
-email: corinna.hertweck@zhaw.ch
+email: corinna.hertweck@uzh.ch
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   PhD student in algorithmic fairness at the University of Zurich and the Zurich University of Applied Sciences
 footer_text: >

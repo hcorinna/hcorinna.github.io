@@ -10,7 +10,7 @@ profile:
   image: corinna.jpg
   address: >
     <p>she/her</p>
-    <p>corinna.hertweck@zhaw.ch</p>
+    <p>corinna.hertweck@uzh.ch</p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
