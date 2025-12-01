@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 description: Publications and preprints.
 years_conferences: [2024, 2022, 2021]
-years_journals: [2024, 2022, 2021]
+years_journals: [2025, 2024, 2022, 2021]
 nav: true
 order: 2
 ---
