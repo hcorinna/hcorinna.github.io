@@ -1,0 +1,17 @@
+# Publication categories: key = value of the `category` field in _bibliography/papers.bib
+# label: short text on the badge next to each entry; name: text on the filter button
+conference:
+  label: Conference
+  name: Conference papers
+journal:
+  label: Journal
+  name: Journal articles
+workshop:
+  label: Workshop
+  name: Workshop papers & extended abstracts
+preprint:
+  label: Preprint
+  name: Preprints
+thesis:
+  label: Thesis
+  name: Thesis

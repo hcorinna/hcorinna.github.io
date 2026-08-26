@@ -11,6 +11,6 @@ order: 4
 Corinna Hertweck<br/>
 Social Computing Group<br/>
 University of Zurich<br/>
-Andreasstrasse 15<br/>
+Binzmühlestrasse 11/13<br/>
 8050 Zurich, Switzerland<br/>
 <i class="fas fa-envelope"></i>   corinna.hertweck@uzh.ch<br/>

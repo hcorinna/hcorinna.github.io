@@ -3,8 +3,6 @@ layout: page
 permalink: /publications/
 title: Publications
 description: Publications and preprints.
-years_conferences: [2024, 2022, 2021]
-years_journals: [2025, 2024, 2022, 2021]
 nav: true
 order: 2
 ---
@@ -15,19 +13,54 @@ order: 2
 If you're doing research in a similar area, you might find this list of relevant conferences and deadlines helpful: <a href="https://hcorinna.github.io/fair-deadlines/?sub=AIE,CSS,MD,ML,DM,CV" target="_blank">https://hcorinna.github.io/fair-deadlines/</a>
 </p>
 
-<h1>Conferences</h1>
-{% for y in page.years_conferences %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f conferences -q @*[year={{y}}]* %}
-{% endfor %}
+<div class="pub-filters" role="group" aria-label="Filter publications by category">
+  <button type="button" class="pub-filter active" data-filter="all">All</button>
+  {%- for cat in site.data.categories %}
+  <button type="button" class="pub-filter cat-{{ cat[0] }}" data-filter="{{ cat[0] }}">{{ cat[1].name }}</button>
+  {%- endfor %}
+</div>
 
-<h1>Journals</h1>
-{% for y in page.years_journals %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f journals -q @*[year={{y}}]* %}
-{% endfor %}
-
-<h1>Preprints</h1>
-{% bibliography -f preprints %}
+{% bibliography %}
 
 </div>
+
+<script>
+  (function () {
+    var buttons = document.querySelectorAll('.pub-filter');
+    var entries = document.querySelectorAll('.publications ol.bibliography > li');
+    var headings = document.querySelectorAll('.publications h2.bibliography');
+
+    function applyFilter(filter) {
+      buttons.forEach(function (b) {
+        b.classList.toggle('active', b.dataset.filter === filter);
+      });
+      entries.forEach(function (li) {
+        var row = li.querySelector('[data-category]');
+        var cat = row ? row.dataset.category : '';
+        li.classList.toggle('hidden-entry', filter !== 'all' && cat !== filter);
+      });
+      // Hide year headings whose list has no visible entries
+      headings.forEach(function (h) {
+        var list = h.nextElementSibling;
+        while (list && list.tagName !== 'OL') list = list.nextElementSibling;
+        var visible = list ? list.querySelectorAll('li:not(.hidden-entry)').length : 0;
+        h.classList.toggle('hidden-group', visible === 0);
+        if (list) list.style.display = visible === 0 ? 'none' : '';
+      });
+    }
+
+    buttons.forEach(function (b) {
+      b.addEventListener('click', function () {
+        var filter = b.dataset.filter;
+        if (history.replaceState) {
+          history.replaceState(null, '', filter === 'all' ? location.pathname : '#' + filter);
+        }
+        applyFilter(filter);
+      });
+    });
+
+    var initial = location.hash.replace('#', '');
+    var known = Array.prototype.some.call(buttons, function (b) { return b.dataset.filter === initial; });
+    applyFilter(known ? initial : 'all');
+  })();
+</script>

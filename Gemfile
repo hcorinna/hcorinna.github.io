@@ -14,6 +14,7 @@ group :jekyll_plugins do
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
     gem 'unicode_utils'
+    gem 'ostruct' # no longer a default gem since Ruby 3.5; needed by jekyll-twitter-plugin
     gem 'webrick'
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
