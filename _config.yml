@@ -211,8 +211,8 @@ scholar:
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
-  sort_by: year, category   # newest year first; within a year: conference, journal, preprint, thesis, workshop
-  order: descending, ascending
+  sort_by: year, sort_order   # newest year first; custom order for entries that share a year
+  order: descending, descending
   group_by: year
   group_order: descending
   bibliography_group_tag: h2
