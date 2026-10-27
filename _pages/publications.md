@@ -10,7 +10,7 @@ order: 2
 <div class="publications">
 
 <p>
-If you're doing research in a similar area, you might find this list of relevant conferences and deadlines helpful: <a href="https://hcorinna.github.io/fair-deadlines/?sub=AIE,CSS,MD,ML,DM,CV" target="_blank">https://hcorinna.github.io/fair-deadlines/</a>
+If you're doing research in a similar area, you might find this list of relevant conferences and deadlines helpful: <a href="https://hcorinna.github.io/fair-deadlines/?cat=conference,specialissue&sub=AIE,CSS,DH,NLP,IR,HCI,MD,ML,DM,CV" target="_blank">https://hcorinna.github.io/fair-deadlines/</a>
 </p>
 
 <div class="pub-filters" role="group" aria-label="Filter publications by category">
